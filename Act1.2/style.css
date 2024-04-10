@@ -1,0 +1,18 @@
+/*Yuting Lin A00835917*/
+
+*{
+    color: black; /*El color de los elementos deberá ser negro*/
+    text-decoration-line: none; /*Sin el subrayado tradicional de un enlace*/
+    list-style-type: none; /*Quitar las vinietas*/
+  }
+  
+  .barra-navegacion ul{
+    display: flex;
+    flex-direction: row; /*Establecer la direccion de los elementos*/
+    justify-content: space-around; /*Establecer el espacio horizontal entre los elementos*/
+    align-items: center; /*Establecer el espacio vertical entre los elementos*/
+  }
+  
+  .barra-navegacion a:hover{
+    color: blue; /*Cambia a color azul cuando posicionamos el mouse sobre algun elemento de navegación*/
+  }
